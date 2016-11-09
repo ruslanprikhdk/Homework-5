@@ -1,0 +1,92 @@
+﻿body {
+  width: 100vw;
+  height: 100vh;
+  background-color: grey;
+}
+
+
+table {
+  margin: 100px auto auto auto;
+  background-color: white;
+}
+
+td {
+  width: 180px;
+  height: 180px;
+  border: 12px solid black;
+}
+
+.cell25,
+.cell32,
+.cell40 {
+  border-bottom: none;
+}
+
+.cell1,
+.cell7,
+.cell13,
+.cell25 {
+  border-left: none;
+}
+
+.cell1,
+.cell3,
+.cell5 {
+  border-top: none;
+}
+
+.cell5,
+.cell11,
+.cell18,
+.cell23,
+.cell29,
+.cell40 {
+  border-right: none;
+}
+
+.cell5,
+.cell11,
+.cell25 {
+  background-color: #fff071;
+}
+
+.cell20,
+.cell21,
+.cell26,
+.cell27,
+.cell34 {
+  background-color: #414141;
+}
+
+.cell8 {
+  background-color: #ff5f41;
+}
+
+.cell29 {
+  background-color: #04427f;
+}
+
+.cell7,
+.cell8,
+.cell9,
+.cell10,
+.cell11,
+.cell12,
+.cell13,
+.cell14,
+.cell15,
+.cell16,
+.cell17,
+.cell18 {
+  height: 360px;
+}
+
+.cell4,
+.cell10,
+.cell16,
+.cell22,
+.cell28,
+.cell34,
+.cell40 {
+  width: 360px;
+}

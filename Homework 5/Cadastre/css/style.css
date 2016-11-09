@@ -1,0 +1,268 @@
+
+@font-face {
+  font-family: 'helvetica_neueregular';
+  src: url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+  url('../fonts/helveticaneue-thin-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+div,
+p,
+a,
+span,
+input,
+li {
+  font-family: 'helvetica_neueregular';
+}
+
+.wrapper {
+  height: 100%;
+}
+
+.header {
+  background-color: #074a87;
+}
+
+.menu1 li a {
+ float: right;
+ padding: 10px;
+ color: #58abe3;
+ font-size: 14px;
+ height: 16px;
+}
+
+.menu1 li a:hover {
+ color: white;
+ background-color: #4eabda;
+ padding: 10px;
+ height: 16px;
+}
+
+.menu2 {
+  margin-right: 15px;
+}
+
+.menu2 li {
+  float: right;
+  padding: 10px;
+  color: white;
+}
+
+.menu2 li:first-child {
+  background: linear-gradient(to top, #2e7ac4, #50afdc);
+}
+
+.menu2 li:last-child {
+  margin:0;
+  padding: 0;
+  height: 36px;
+}
+
+.bar {
+  margin: 0;
+  display: inline-block;
+  line-height: 38px;
+  font-size: 38px;
+  color: #4eabda;
+}
+
+.clearfix::after {
+  content: " ";
+  clear: both;
+  display: block;
+}
+
+.phrase {
+  text-decoration: underline;
+}
+
+.space {
+  height: 1000px;
+  position: relative;
+  background-image: url('../img/background.png');
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.central {
+  background-color: rgba(0,0,0,0.6);
+  width: 560px;
+  height: 614px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -250px;
+  margin-top: -270px;
+  text-align: center;
+}
+
+.title {
+  height: 24px;
+  padding: 19px 0;
+  border-bottom: 2px solid #cdd3c5;
+}
+
+.cadastre {
+  font-size: 24px;
+  color: white;
+}
+
+.fb {
+  margin-top: 36px;
+}
+
+.fb1 {
+  display: inline-block;
+  margin-right: -5px;
+  background: linear-gradient(to top, #2c4679, #3e5694);
+  border-top: 1px solid #7789b7;
+  border-right: 1px solid #203a75;
+  padding: 10px 0px;
+  height: 14px;
+  color: white;
+  border-radius: 3px 0px 0px 3px;
+  width: 37px;
+}
+
+.fb2 {
+  display: inline-block;
+  border-top: 1px solid #7789b7;
+  border-left: 1px solid #4c68a9;
+  background: linear-gradient(to top, #2c4679, #3e5694);
+  padding: 10px 0px;
+  height: 14px;
+  color: white;
+  border-radius: 0px 3px 3px 0px;
+  width: 237px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+.dash {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #999999;
+  margin-bottom: 30px;
+}
+
+.ou,
+.dash {
+  position: relative;
+}
+
+.ou:before {
+  content: "";
+  width: 123px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid black;
+  position: absolute;
+  top: 7px;
+  left: 142px;
+}
+
+.dash:before {
+  content: "";
+  width: 123px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid black;
+  position: absolute;
+  top: 7px;
+  left: 295px;
+}
+
+.text {
+  text-indent: 10px;
+  background: black;
+  color: #fffbfb;
+  width: 160px;
+  border: none;
+  margin-bottom: 20px;
+  font-size: 14px;
+  padding: 5.5px;
+  width: 266px;
+  border-bottom: 1px solid #494948;
+}
+
+.email {
+  margin-top: -4px;
+  margin-bottom: 16px;
+  text-indent: 10px;
+  background: black;
+  color: #fffbfb;
+  width: 160px;
+  border: none;
+  font-size: 14px;
+  padding: 5.5px;
+  width: 266px;
+  border-bottom: 1px solid #494948;
+}
+
+.password {
+  text-indent: 10px;
+  margin-bottom: 13px;
+  background: black;
+  color: #fffbfb;
+  width: 160px;
+  border: none;
+  border-bottom: 1px solid #494948;
+  font-size: 14px;
+  padding: 5.5px;
+  width: 266px;
+}
+
+.checkbox {
+  margin-top: 21px;
+  margin-left: -55px;
+}
+
+.youbike {
+  color: #cccccc;
+  font-size: 14px;
+}
+
+.submit {
+  margin-top: 30px;
+  width: 150px;
+  height: 35px;
+  background: linear-gradient(to top, #2e7bc4 50%, #4faddb);
+  border: none;
+  border-radius: 3px;
+  color: #ffffff;
+}
+
+.note1 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  color: #cccccc;
+  font-size: 11px;
+}
+
+.note2 {
+  color: #cccccc;
+  font-size: 11px;
+}
+
+.text:focus {
+  background: #1b5288;
+  border-bottom: 1px solid #699bcd;
+  box-shadow: 0 0 5px 2px #4d88af;
+}
+
+.email:focus {
+  background: #1b5288;
+  border-bottom: 1px solid #699bcd;
+  box-shadow: 0 0 5px 2px #4d88af;
+}
+
+.password:focus {
+  background: #1b5288;
+  border-bottom: 1px solid #699bcd;
+  box-shadow: 0 0 5px 2px #4d88af;
+}
